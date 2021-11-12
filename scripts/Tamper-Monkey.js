@@ -42,5 +42,5 @@ function _newArrowCheck(a, b) {
             document.getElementsByTagName('style')[0].textContent +=  "\n            img {\n                filter: brightness(" +
             input.value +
             "%);\n            }";
-        }, 100)
+        }, 100);
 })();
