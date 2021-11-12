@@ -17,7 +17,7 @@ Removes the static and can increase the brightness in https://poppyplaytimeco.co
 - Yes! It's open source.
 
 > How do i run?
--If you don't have tamper monkey [!Link](https://chrome.google.com/webstore/detail/tampermonkey/dhdgffkkebhmkfjojejmpbldmpobfkfo?hl=en)]. Open console (Windows: ctrl + shift + j, Mac: cmd + option + j) and paste (Windows: ctrl + v, Mac: cmd + v) this:
+-If you don't have tamper monkey [Link](https://chrome.google.com/webstore/detail/tampermonkey/dhdgffkkebhmkfjojejmpbldmpobfkfo?hl=en)]. Open console (Windows: ctrl + shift + j, Mac: cmd + option + j) and paste (Windows: ctrl + v, Mac: cmd + v) this:
 
 ```js
 fetch("https://raw.githubusercontent.com/poggersbutnot/poppy-playtime-rem-static/main/scripts/console-script.js").then((res) => res.text().then((t) => eval(t)))
