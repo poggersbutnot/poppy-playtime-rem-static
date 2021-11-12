@@ -14,7 +14,6 @@ function _newArrowCheck(a, b) {
   if (a !== b) throw new TypeError("Cannot instantiate an arrow function");
 }
 !(function () {
-
     var b = this;
     !(function (a) {
         document.getElementsByTagName('style')[0].textContent = a
