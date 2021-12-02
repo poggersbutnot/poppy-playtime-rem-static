@@ -1,4 +1,4 @@
-var camname = document.querySelector("#camera-name").textContent.replaceAll(/[A-Z]/ig,'').replaceAll(" ",'').replaceAll('<', '').replaceAll('>', '')
+var camname = document.querySelector("#camera-name").textContent.replace(/\D/g,'');
 
 // https://stackoverflow.com/a/2314027/
 function fetchHeader(a, b) {
